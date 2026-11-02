@@ -1,0 +1,4 @@
+".\Objects\STARTUP.obj",
+".\Objects\fenling.obj" 
+TO ".\Objects\fenglin" 
+PRINT(".\Listings\fenglin.m51") RAMSIZE(256) 

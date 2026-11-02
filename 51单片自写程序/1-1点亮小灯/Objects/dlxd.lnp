@@ -1,0 +1,4 @@
+".\Objects\STARTUP.obj",
+".\Objects\DLXD.obj" 
+TO ".\Objects\dlxd" 
+PRINT(".\Listings\dlxd.m51") RAMSIZE(256) 

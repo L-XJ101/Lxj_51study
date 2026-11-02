@@ -1,0 +1,36 @@
+C51 COMPILER V9.54   DLXD                                                                  09/27/2026 15:01:06 PAGE 1   
+
+
+C51 COMPILER V9.54, COMPILATION OF MODULE DLXD
+OBJECT MODULE PLACED IN .\Objects\DLXD.obj
+COMPILER INVOKED BY: D:\Keil_v5\C51\BIN\C51.EXE DLXD.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\DLXD
+                    -.lst) TABS(2) OBJECT(.\Objects\DLXD.obj)
+
+line level    source
+
+   1          #include <REGX52.H>
+   2          
+   3          sbit led=P2^1;
+   4          
+   5          void main()
+   6          {
+   7   1        while(1)
+   8   1        {
+   9   2          led=0;
+  10   2        }
+  11   1      }
+  12              
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =      4    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
